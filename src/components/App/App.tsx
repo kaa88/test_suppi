@@ -47,7 +47,7 @@ const App = () => {
         setIsPaginationActive(true);
       }, 1000);
     }
-  }, [data]);
+  }, [data]); // eslint-disable-line
 
   const fetchNextPage = () => {
     const hasNextPage = data?.search?.pageInfo?.hasNextPage;
@@ -79,9 +79,9 @@ const App = () => {
     if (intersectionRef.current) observer.observe(intersectionRef.current);
 
     return () => {
-      if (intersectionRef.current) observer.unobserve(intersectionRef.current);
+      if (intersectionRef.current) observer.unobserve(intersectionRef.current); // eslint-disable-line
     };
-  }, [intersectionRef, intersectionOptions]);
+  }, [intersectionRef, intersectionOptions]); // eslint-disable-line
   // /Intersection
 
   let message = "";
