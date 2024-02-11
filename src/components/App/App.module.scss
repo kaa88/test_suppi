@@ -1,0 +1,28 @@
+.layout {
+  position: relative;
+  height: 100%;
+}
+.container {
+  margin: 0 auto;
+  padding: 0 10px;
+  width: 100%;
+  max-width: 800px;
+}
+.header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  padding: 20px 0;
+  background-color: #fff;
+}
+.content {
+  padding: 20px 0;
+  & .container > * {
+    margin-bottom: 15px;
+  }
+}
+.message {
+  min-height: 20px;
+  text-align: center;
+}
