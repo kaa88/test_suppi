@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/test_suppi/static/css/main.32d6c617.css",
+    "main.js": "/test_suppi/static/js/main.32b9aa3a.js",
+    "index.html": "/test_suppi/index.html",
+    "main.32d6c617.css.map": "/test_suppi/static/css/main.32d6c617.css.map",
+    "main.32b9aa3a.js.map": "/test_suppi/static/js/main.32b9aa3a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.32d6c617.css",
+    "static/js/main.32b9aa3a.js"
+  ]
+}
