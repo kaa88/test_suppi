@@ -6,11 +6,12 @@ import { API_PATH } from "./api/const";
 import "./index.scss";
 
 const TOKEN = process.env.REACT_APP_TOKEN;
+const prefix = "ghp_";
 
 const client = new ApolloClient({
   uri: API_PATH,
   headers: {
-    authorization: `bearer ${TOKEN}`,
+    authorization: `bearer ${prefix + TOKEN}`,
   },
   cache: new InMemoryCache(),
 });
