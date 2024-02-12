@@ -1,8 +1,9 @@
-name: Deployment
+name: deploy_suppi_to_gh-pages
 on:
   push:
-    branches:
-      - master
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
 jobs:
   deploy:
     runs-on: ubuntu-latest
